@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,0,200"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
+      >
+        <a
+          href="/home.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="/static/lofo.jpg" class="w-10 h-10 rounded-full" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >VA</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="mega-menu-full"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="mega-menu-full"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div
+          id="mega-menu-full"
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+        >
+          <ul
+            class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse"
+          >
+            <li>
+              <a
+                href="/home.html"
+                class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/index.html"
+                class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a
+                data-popover-target="popover-bottom"
+                data-popover-placement="bottom"
+                href="#"
+                class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="mega-menu-full-dropdown"
+      class="mt-1 bg-white border-gray-200 shadow-sm border-y dark:bg-gray-800 dark:border-gray-600"
+    >
+      <div
+        class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:grid-cols-3 md:px-6"
+      >
+        <ul aria-labelledby="mega-menu-full-dropdown-button">
+          <li class="mr-2">
+            <span
+              class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+            >
+              <div class="font-semibold uppercase text-center">Curriculum</div>
+            </span>
+            <ul
+              class="text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            >
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1SvM0yZ5Wa8KQcIkZKaRlYAUcbdCCQj8P/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương I</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1QEFhgqaBNJlA4T6pH0JJdF0XLSmeEvwB/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương II</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1T6yeUHZE0lxdUpBd_-HyWFiUzQB8MnK2/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương III</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1-3dTwIzuXxgG0Y1QNb_kouXuI2dqo-DO/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương IV</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1jXDBSb0MsVP5YROQaLAoUIUJvx-FHX4G/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương V</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1Hy1JoF_6IwJozIbuu0h8VA178ucpPlMB/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương VI</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1MW8Vt_78z-V1mFUj-JDKewD2p4JW2OL-/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    picture_as_pdf </span
+                  >Chương VII</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="mr-2">
+            <span
+              class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+            >
+              <div class="font-semibold uppercase text-center">SLIDE</div>
+            </span>
+            <ul
+              class="text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            >
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"
+              >
+                <a
+                  href="https://docs.google.com/presentation/d/1oLC7yADcq4vggZf89Px0F43OdBE0iivJ/edit?usp=sharing&ouid=114224608006513395767&rtpof=true&sd=true"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >FTF 1</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1n3UfOv5R_kj5N0bW9cnZepxwSY3S1NA5/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 1</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1KmZtRYVNTLpeC_tr_cytw9QOMPm5E58K/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 2</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1f-RWGtQ2GhDa9XRCZMhLrKmZu0tFO4jY/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 3</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1OKrsXnPx4KvhJmmI4mU5B7WpOcxRIJVw/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 4</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/198i6gDtFjTGmZWNmR0p9r6xwDzJ5IpwJ/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 5</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://docs.google.com/presentation/d/18NG2s_LxvDRov2c4i4owne91EwBMpcGE/edit?usp=sharing&ouid=114224608006513395767&rtpof=true&sd=true"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >FTF 2</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1QW0A2nWHL_3sHHolrF320TsT0VK1HmPo/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 6</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1PppGNw9sTxe6IqDgJbxOto6I3rUhHgLt/view?usp=sharing"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >LMS 7</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://docs.google.com/presentation/d/1AmEYmAxfLM_w6TpdD8xO4BF4KWHM4mkl/edit?usp=sharing&ouid=114224608006513395767&rtpof=true&sd=true"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    description </span
+                  >FTF 3</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="hidden md:block">
+          <li class="mr-2">
+            <span
+              class="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700"
+            >
+              <div class="font-semibold uppercase text-center">
+                documentation
+              </div>
+            </span>
+            <ul
+              class="text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+            >
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=14/81/41/&doc=148141746329311837205743034230342248776&bitsid=ed3bac88-a9df-40ee-af7b-78e3979e5834&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >FTF 1</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=90/45/80/&doc=90458058492430651451812148056837084141&bitsid=bb44b9fd-40c2-4475-b15a-f759b58590a2&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 1</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://www.tapchicongsan.org.vn/web/guest/nghien-cu/-/2018/496728/thuc-hien-noi-dung-su-menh-lich-su-cua-giai-cap-cong-nhan-trong-cach-mang-cong-nghiep-lan-thu-tu.aspx"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 2</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=10/40/20/&doc=104020424695508818743056752406159438681&bitsid=17fa189b-3201-4fac-93ea-9083789ac919&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 3</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://cand.com.vn/Chong-dien-bien-hoa-binh/dan-chu-khong-dong-nghia-voi-da-nguyen-da-dang-i639408"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 4</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=50/75/21/&doc=50752140105025632172150646797669271132&bitsid=a105b713-cdf7-447c-a841-99587e1e250e&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 5</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=16/60/63/&doc=16606337377487343052575345318853829101&bitsid=cfbab9c6-8908-4ac4-92ea-30b696b4e352&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 6</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="https://repository.vnu.edu.vn/flowpaper/simple_document.php?subfolder=46/13/09/&doc=46130957343914423062699634543734290698&bitsid=1179837a-8732-4372-b558-719057942103&uid="
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >LMS 7</a
+                >
+              </li>
+              <li
+                class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600"
+              >
+                <a
+                  href="http://giadinh.bvhttdl.gov.vn/boi-canh-hien-nay-va-nhung-thach-doi-voi-giao-duc-gia-dinh-va-nhung-bieu-hien-lech-chuan-cua-giao-duc-gia-dinh/"
+                  class="w-full inline-flex py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                  aria-current="page"
+                  ><span class="material-symbols-rounded text-md mr-1">
+                    contract </span
+                  >FTF 3</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      data-popover
+      id="popover-bottom"
+      role="tooltip"
+      class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600"
+    >
+      <div class="p-3">
+        <div class="flex items-center justify-between mb-2">
+          <a href="#">
+            <img
+              class="w-10 h-10 rounded-full"
+              src="/static/lofo.jpg"
+              alt="VA"
+            />
+          </a>
+        </div>
+        <p
+          class="text-base font-semibold leading-none text-gray-900 dark:text-white"
+        >
+          <a href="#">Lê Nguyễn Vân An</a>
+        </p>
+        <p class="mb-3 text-sm font-normal">
+          <a href="#" class="hover:underline">@anlnv</a>
+        </p>
+        <p class="mb-4 text-sm">
+          University Lecturer in
+          <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline"
+            >hcmue.edu.vn</a
+          >.
+        </p>
+      </div>
+      <div data-popper-arrow></div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</html>
